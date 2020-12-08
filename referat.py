@@ -13,5 +13,3 @@ with open('referat.txt', 'r', encoding = 'utf-8')as referat_file:
       words = len(value.split())        
       all_words += words 
     print(all_words)  
-    
-
